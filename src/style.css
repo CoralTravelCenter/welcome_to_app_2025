@@ -1,0 +1,91 @@
+#header-sticky-bar {
+	display: none;
+}
+
+jdiv ._mobileOffsetBottom__w86p_ {
+	margin-bottom: 150px !important;
+}
+
+jdiv .button__B5fnY {
+	width: 45px !important;
+	height: 45px !important;
+}
+
+jdiv .iconWrap__JGH22 {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	position: static !important;
+}
+
+jdiv .logoIconCloud__DsSbK {
+	width: 25px !important;
+	height: 25px !important;
+	background-size: contain;
+	background-position: center;
+	position: static !important;
+	margin: 0 !important;
+}
+
+jdiv .icons__zpdQA:first-child {
+	margin: 0 2px 0 0 !important;
+}
+
+#hotel-detail-area .ant-row > div > div > div div:nth-child(2) {
+	bottom: 0;
+}
+
+.welcome-to-app {
+	--width: calc(100% - 48px);
+	--bottom-offset: calc(60px + 16px);
+
+	position: fixed;
+	width: var(--width);
+	bottom: var(--bottom-offset);
+	left: 50%;
+	transform: translate(-50%, 0);
+	border-radius: 16px;
+	background: #FFF;
+	box-shadow: 0px 272px 76px 0px rgba(0, 0, 0, 0.00), 0px 174px 70px 0px rgba(0, 0, 0, 0.01), 0px 98px 59px 0px rgba(0, 0, 0, 0.05), 0px 44px 44px 0px rgba(0, 0, 0, 0.09), 0px 11px 24px 0px rgba(0, 0, 0, 0.10);
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 8px 8px 16px;
+
+	transition: transform 300ms ease;
+}
+
+.welcome-to-app__text {
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: normal;
+	margin: 0;
+}
+
+.welcome-to-app__text span {
+	color: #0092D0;
+}
+
+.welcome-to-app__link {
+	padding: 16px 20px;
+	border-radius: 12px;
+	background: #0092D0;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+}
+
+.welcome-to-app.js-animate {
+	transform: translate(-50%, calc(var(--bottom-offset) - 16px))
+}
+
+/*Стили для страницы поиска*/
+.welcome-to-app[data-location*="packagetours"] {
+	bottom: 16px;
+}
+
+.ant-float-btn-circle {
+	inset-block-end: 96px;
+}
